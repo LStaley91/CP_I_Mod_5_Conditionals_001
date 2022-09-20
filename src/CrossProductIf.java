@@ -5,7 +5,7 @@ public class CrossProductIf
         String playerA = "R";
         String playerB = "R";
 
-        if (playerA.equalsIgnoreCase("R")
+        if(playerA.equalsIgnoreCase("R");
         {
             if(playerB.equalsIgnoreCase("R"))
             {
@@ -20,20 +20,18 @@ public class CrossProductIf
                 System.out.println("Scissors vs Rock Player A WINS!");
             }
         }
-        else if(playerA.equalsIgnoreCase("P"))
+        else if (playerA.equalsIgnoreCase("P"))
         {
-            if(playerB.equalsIgnoreCase("R"))
-            {
-                System.out.println("Rock vs Paper Player A WINS!");
-            }
-            if(playerB.equalsIgnoreCase("P"))
-            {
-                System.out.println("Paper vs Paper its a TIE!");
-            }
-            if(playerB.equalsIgnoreCase("S"))
-            {
-                System.out.println("Scissors vs Paper Player B WINS!");
-            }
+        if (playerB.equalsIgnoreCase("R")) {
+            System.out.println("Rock vs Paper Player A WINS!");
+        }
+        if (playerB.equalsIgnoreCase("P")) {
+            System.out.println("Paper vs Paper its a TIE!");
+        }
+        if (playerB.equalsIgnoreCase("S")) {
+            System.out.println("Scissors vs Paper Player B WINS!");
+        }
+         }
         else // Player A must be Scissors
         {
             if(playerB.equalsIgnoreCase("R"))
