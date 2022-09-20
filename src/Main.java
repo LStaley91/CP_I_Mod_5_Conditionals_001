@@ -2,11 +2,18 @@ public class Main
 {
     public static void main(String[] args) {
         int age = 16;
-
-        if (age. = 16) {
+        String critterRace = "Orc";
+        if (age >= 21 && critterRace.equalsIgnoreCase("Orc")) {
+            System.out.println("You can get a Drivers License.. Please be careful");
+        }
+        int age = 7;
+        String critterRace = "Elf";
+        if (critterRace.equalsIgnoreCase("Elf")) {
             System.out.println("You can get a Drivers License");
         }
-        if (age. = 16) {
+
+        int age = 16;
+        if (age >= 16) {
             System.out.println("You can get a Drivers License");
         } else {
             System.out.println("Sorry too young ofr a Driver's license");
